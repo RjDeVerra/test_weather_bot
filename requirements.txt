@@ -1,3 +1,2 @@
-aiogram
-json
-requests
+aiogram==2.23.1
+requests==2.31.0
