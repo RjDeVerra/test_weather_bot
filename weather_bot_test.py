@@ -3,7 +3,8 @@ import requests
 import json
 
 openweathermap_API_key = ''
-bot = Bot(token='')
+weather_API_key = ''
+bot = Bot(token=weather_API_key)
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands = ['start'])
