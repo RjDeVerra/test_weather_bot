@@ -28,5 +28,4 @@ async def send_message(message: types.Message):
 	else:
 		await message.reply('No such city was found. Try again')
 
-if __name__ == '__main__':
-    executor.start_polling(dp, skip_updates=True)
+executor.start_polling(dp, skip_updates=True)
